@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Build Your Own Pizza</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+
+  </head>
+
+  <body>
+
+    <main class="main">
+	<h1>Build Your Own Pizza</h1>
+  <div class="wrapper cf">
+
+	<!--Begin Toppings-->
+    <div class="box latest-toppings">
+      <h2>Choose Your Dough</h2>
+      <ul class="toppings-list cf">
+        <li><a class="toppings-list__item" href="#/product/1"><h3 class="toppings-list__item-name">Whole Wheat Dough</h3> <img class="dough_1 toppings-list__item-image" src="img/dough.png"> <span class="toppings-list__item-price">$ 5.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add from cart"></span></a></li>
+        <li><a class="toppings-list__item" href="#/product/4"><h3 class="toppings-list__item-name">Gluten Free Dough</h3> <img class="dough_2 toppings-list__item-image"src="img/dough.png">  <span class="toppings-list__item-price">$ 6.66</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li><a class="toppings-list__item" href="#/product/6"><h3 class="toppings-list__item-name">Corn Bread Dough</h3>  <img class="dough_3 toppings-list__item-image" src="img/dough.png">  <span class="toppings-list__item-price">$ 5.50</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li class="classic"><a class="toppings-list__item" href="#/product/8"><h3 class="toppings-list__item-name">White Dough</h3>  <img class="dough_4 toppings-list__item-image" src="img/dough.png">  <span class="toppings-list__item-price">$ 8.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+      </ul>
+
+      <h2>Choose Your Sauce</h2>
+      <ul class="toppings-list cf">
+        <li><a class="toppings-list__item" href="#/product/1"><h3 class="toppings-list__item-name">White Sauce</h3> <img class="sauce_1 toppings-list__item-image" src="img/sauce.png"> <span class="toppings-list__item-price">$ 2.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart discard" title="Add from cart"></span></a></li>
+        <li class="classic"><a class="toppings-list__item" href="#/product/4"><h3 class="toppings-list__item-name">Marinara Sauce</h3> <img class="sauce_2 toppings-list__item-image"  src="img/sauce.png">  <span class="toppings-list__item-price">$ 5.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li><a class="toppings-list__item" href="#/product/6"><h3 class="toppings-list__item-name">Mediterranean Sauce</h3>  <img class="sauce_3 toppings-list__item-image" src="img/sauce.png">  <span class="toppings-list__item-price">$ 5.50</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li><a class="toppings-list__item" href="#/product/8"><h3 class="toppings-list__item-name">Oil Base</h3>  <img class="sauce_4 toppings-list__item-image"  src="img/sauce.png">  <span class="toppings-list__item-price">$ 1.50</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+      </ul>
+
+      <h2>Choose Your Meat</h2>
+      <ul class="toppings-list cf">
+        <li class="meat"><a class="toppings-list__item" href="#/product/1"><h3 class="toppings-list__item-name">Sausage</h3> <img class="meat_1 toppings-list__item-image" src="img/sausage.png"> <span class="toppings-list__item-price">$ 4.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li class="meat"><a class="toppings-list__item" href="#/product/4"><h3 class="toppings-list__item-name">Chicken</h3> <img class="meat_2 toppings-list__item-image"  src="img/chicken.png">  <span class="toppings-list__item-price">$ 3.50</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li class="seafood"><a class="toppings-list__item" href="#/product/6"><h3 class="toppings-list__item-name">Shrimp</h3>  <img class="meat_3 toppings-list__item-image" src="img/shrimp.png">  <span class="toppings-list__item-price">$ 5.00</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+        <li class="seafood"><a class="toppings-list__item" href="#/product/8"><h3 class="toppings-list__item-name">Salmon</h3>  <img class="meat_4 toppings-list__item-image"  src="img/salmon.png">  <span class="toppings-list__item-price">$ 5.50</span> <span class="toppings-list__item-buy fa fa-shopping-cart" title="Add to cart"></span></a></li>
+      </ul>
+    </div>
+	<!--End Toppings-->
+
+	<!--Begin Filters-->
+    <div class="box filters">
+      <h2>Filters</h2>
+      <ul class="categories-list">
+        <li class="categories-list__item"><span class="category-seafood">Seafood</span><button>X</button></li>
+        <li class="categories-list__item"><span class="category-meat">Meat Lovers</span><button>X</button></li>
+        <li class="categories-list__item"><span class="category-classic">Classic Toppings</span><button>X</button></li>
+      </ul>
+    </div>
+	<!--End  Filters-->
+
+    <!--Begin At A Glance-->
+    <div class="box pizza">
+      <h3>Your pie at a glance</h3>
+      <ul class="toppings-list">
+      </ul>
+    </div>
+    <!--End At A Glance-->
+
+	<!--Begin Cart-->
+    <div class="box cart">
+      <h2>My Cart</h2>
+      <ul class="cart-list">
+        <li class="cart-list__subtotal cf"><span class="cart-list__subtotal-caption">Subtotal</span> <span class="cart-list__subtotal-number">$ 0.00</span></li>
+
+        <li class="cart-list__tax-rate cf"><span class="cart-list__tax-rate-caption">Taxes</span> <span class="cart-list__tax-rate-number">$ 0.00</span></li>
+
+        <li class="cart-list__total cf"><span class="cart-list__total-caption">Total</span> <span class="cart-list__total-number">$ 0.00</span></li>
+      </ul>
+	  <!--Begin Checkout Button-->
+	  <div class='button'>Checkout</div>
+	  <!--End Checkout Button-->
+    </div>
+	<!--End Cart-->
+
+  </div>
+</main>
+    <script src='js/jquery-3.1.1.min.js'></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src='js/build-a-pizza.js'></script>
+
+
+
+
+  </body>
+</html>
