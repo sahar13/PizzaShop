@@ -1,5 +1,5 @@
 # Pizza Shop
-Using starter code provided by the instructor, this webpage allows users to build their own pizza and add/remove items from a shopping cart.
+Using starter code provided by the instructor, this webpage uses JavaScript to allow users to build their own pizza and add/remove items from a shopping cart.
 <h2>Features</h2>
 <ol>
   <li>When a user clicks on a topping, the user gets a visual cue indicating that the topping has been added. The topping appears in the cart as well as in the "Your Pie At A Glance" section.
